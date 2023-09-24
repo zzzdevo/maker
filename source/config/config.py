@@ -17,8 +17,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "26520853"))
-API_HASH = getenv("API_HASH","9b6c353444c20d959d586bca7d7dd573")
+API_ID = int(getenv("API_ID", "12962251"))
+API_HASH = getenv("API_HASH","b51499523800add51e4530c6f552dbc8")
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001794686710"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001906948158"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","mody")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1121532100").split())
+    map(int, getenv("OWNER_ID", "833360381").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
