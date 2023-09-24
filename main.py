@@ -1,5 +1,4 @@
 import asyncio
-from pytgcalls import idle
 #'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
 import os
 import sys
