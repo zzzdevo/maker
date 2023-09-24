@@ -6,16 +6,16 @@ from pyromod import listen
 
 bot = Client(
     "mo",
-    api_id=8186557,
-    api_hash="efd77b34c69c164ce158037ff5a0d117",
-    bot_token="5912908363:AAGkAqH3VTR0d-g0lAervmElqo9TqgDYLu4",#توكن المصنع
+    api_id=12962251,
+    api_hash="b51499523800add51e4530c6f552dbc8",
+    bot_token="6668468593:AAFHmKESsD-xcKy-r_2QilryxNxLjvBUsoc",#توكن المصنع
     plugins=dict(root="MHelal")
     )
 
 async def start_helalbot():
     print("تم تشغيل الصانع بنجاح..💗")
     await bot.start()
-    hh = "MohamedHelal_l"#يوزر المطور المصنع
+    hh = "IQ7amo"#يوزر المطور المصنع
     try:
         await bot.send_message(hh, "**تم تشغيل الصانع بنجاح ...🥀**")
     except:
